@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #555555;
+}
+
+.header {
+    background: #9657A5;
+    width: 375px;
+    height: 66px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700, bold;
+    color: white;
+    text-align: center;
+    padding-top: 19px;
+}
+
+.container {
+    padding: 24px;
+    background: #E5E5E5;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo {
+    color: #777777;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+#value-paragrafo {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(79, 107, 87);
+}
+
+select {
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 23px;
+    width: 327px;
+    height: 48px;
+    cursor: pointer;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background: white;
+}
+
+input {
+    width: 327px;
+    height: 48px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+    outline: none;
+    background: white;
+    margin-bottom: 23px;
+}
+
+button {
+    display: block;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(79, 107, 87);
+    cursor: pointer;
+    width: 327px;
+    height: 48px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    color: rgb(79, 107, 87);
+    background-color: white;
+    transition: all 1s ease-in-out;
+}
+
+button:active {
+    transform: translateY(30px);
+}
+
+.container-two {
+    width: 327px;
+    height: 270px;
+    border: 1px solid #9657A5;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-value {
+    text-align: center;
+}
+
+#seta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.paragrafo-nota {
+    color: #777777;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.numbers {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+}
